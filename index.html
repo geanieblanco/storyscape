@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Character Generator</title>
+
+  <!-- Materialize Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.1/css/materialize.min.css">
+
+  <!-- Materialize Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.1/js/materialize.min.js"></script>
+
+  <!-- Chance -->
+  <script src="http://chancejs.com/chance.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+  <!-- Native Files -->
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/app.js"></script>
+</head>
+
+<body>
+  <!-- Title Container -->
+  <div class="container teal darken-2 row" id="title-container">
+    <h1><center>Character Generator</center></h1>
+    <a class="waves-effect waves-light btn-large" id="male">Male</a>
+    <a class="waves-effect waves-light btn-large" id="female">Female</a>
+
+  </div>
+
+  <!-- Main Body -->
+  <div class="container">
+    <div class="row">
+
+      <!-- Personal Information -->
+      <div class="col s6 teal lighten-2" id="main-column">
+        <h4>Name & Information</h4>
+        <div class="divider"></div>
+        <div class="section">
+          <h5>About</h5>
+          <p>First Name: </p>
+          <p id="firstNameResponse"></p>
+          <p>Last Name: </p>
+          <p id="lastNameResponse"></p>
+          <p>Age Name: </p>
+          <p id="ageResponse"></p>
+          <p>Birthday: </p>
+          <p id="birthdayResponse"></p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+          <h5>Location</h5>
+          <p>City: </p>
+          <p id="cityResponse"></p>
+          <p>Time Period: </p>
+          <p id="timePeriodResponse"></p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+          <h5>Section 3</h5>
+          <p>Stuff</p>
+        </div>
+      </div>
+
+      <!-- Description Information -->
+      <div class="col s6 teal lighten-5" id="main-column">
+        <h4>Physical Description</h4>
+        <div class="divider"></div>
+        <div class="section">
+          <h5>Appearance</h5>
+          <p>Eye Color: </p>
+          <p>Hair Color: </p>
+          <p>Hair Length: </p>
+          <p>Skin Tone: </p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+          <h5>Build</h5>
+          <p>Height: </p>
+          <p>Body Type: </p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+          <h5>Section 3</h5>
+          <p>Stuff</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
