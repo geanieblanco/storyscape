@@ -1,5 +1,5 @@
 {
-  "name": "character-generator",
+  "name": "storyscape",
   "version": "1.0.0",
   "description": "Generate random character information",
   "main": "server.js",
@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/geanieblanco/character-generator#readme",
   "dependencies": {
-    "chance": "^1.0.12",
-    "express": "^4.16.2",
-    "mysql2": "^1.5.1",
+    "chance": "^1.0.13",
+    "express": "^4.16.3",
+    "mysql2": "^1.5.3",
+    "npm": "^5.8.0",
     "require": "^2.4.20"
-  }
+  },
+  "devDependencies": {}
 }
